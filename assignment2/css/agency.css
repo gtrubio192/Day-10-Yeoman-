@@ -231,14 +231,14 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
-    .navbar-default {
+    /*.navbar-default {
         padding: 25px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
-    }
+    }*/
 
     .navbar-default .navbar-brand {
         font-size: 2em;
@@ -268,6 +268,7 @@ header {
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
+    margin: 50px 50px 0px 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -321,22 +322,28 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
+section h2.section-instruction{
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
 
+}
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 40px;
+/*    margin-bottom: 15px;
+*/    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @media(min-width:768px) {
@@ -400,7 +407,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
-    max-width: 400px;
+    /*max-width: 400px;*/
     text-align: center;
     background-color: #fff;
 }
